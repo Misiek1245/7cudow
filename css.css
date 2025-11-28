@@ -1,18 +1,22 @@
 *{
     text-align: center;
- /*   border: 1px solid black; */
 }
 header ,footer{
     background-color: rgb(86, 27, 140);
-
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 20px;
 }
+header ,footer, nav{
+    position: fixed;
+    width: 99%;
+    z-index: 1;
+}
 header{
     font-size: xx-large;
     height: 10vh;
+    z-index: 2;
 }
 body{
     background-color: rgb(21, 21, 118);
@@ -21,15 +25,20 @@ body{
 footer{
     height: 5vh;
     margin: auto;
+    bottom: 1vh;
 }
 nav{ 
     height: 5vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    top: -20vh;
+    background-color: rgb(21, 21, 118);
+    padding-top: 300px;
+    width: 100vw;
 }
-nav a {
 
+nav a {
     padding: 10px;
     margin: 15px;
     background-color: rgb(123, 36, 155);
@@ -44,14 +53,21 @@ a:hover{
 
 }
 main{
-    height: 78vh;
+    padding: 15vh 2vw 7vh;
+    z-index: -1;
+}
+.box1{
+    position: fixed;
+    bottom: 0;
+    background-color: rgb(21, 21, 118);
+    width: 99vw;
+    height: 5vh;
+    z-index: 0;
 }
 #an1{
     animation: an1 2.5s infinite alternate;
 }
-#ani1:hover {
-    animation-play-state: paused;
-}
+
 /* @ */
     /* @media  */
     @media screen and (max-width:1200px){
@@ -63,16 +79,13 @@ main{
     /* @keyframe */
         @keyframes an1 {
         33% {
-            transform: rotate(0);
-            transform: scale(1);
+            transform: rotate(0) scale(1);
         }
         66%{
-            transform: scale(1.1);
-            transform: rotate(2deg);
+            transform: scale(1.1) rotate(2deg);
         }
         
         100%{
-            transform: scale(1.1);
-            transform: rotate(-2deg);
+            transform: scale(1.1) rotate(-2deg);
         }
     }
