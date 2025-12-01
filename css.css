@@ -21,7 +21,9 @@ header{
 }
 body{
     background-color: rgb(21, 21, 118);
-
+}
+li{
+    list-style-type: none;
 }
 footer{
     height: 5vh;
