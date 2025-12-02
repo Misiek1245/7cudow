@@ -71,8 +71,8 @@ main a{
     position: fixed;
     bottom: 0;
     background-color: rgb(21, 21, 118);
-    width: 99vw;
-    height: 5vh;
+    width: 100vw;
+    height: 7vh;
     z-index: 0;
 }
 #an1{
@@ -82,10 +82,17 @@ main a{
 /* @ */
     /* @media  */
     @media screen and (max-width:1200px){
-
+        nav{
+            display: none;
+        }
     }
     @media screen and (max-width:600px){
-
+        nav{
+            display: none;
+        }
+        main ul{
+            display: none;
+        }
     }
     /* @keyframe */
         @keyframes an1 {
