@@ -10,10 +10,15 @@
     <body>
                 <div class="box2"></div>     
         <header><div id="an1">7 Najlepszych zespołów (moim zdaniem)</div></header>
-        <nav><a href="index.html">Strona Główna</a> <a href="galeria.html">Galeria</a> <a href="formularz.html">Formularz</a> </nav>
+
+        <nav class="pc"><a href="index.html">Strona Główna</a> <a href="galeria.html">Galeria</a> <a href="formularz.html">Formularz</a> </nav>
         <div class="tekst">
             <main>
-                <ul class="main_nav">
+                 <!-- The overlay -->
+
+
+
+                <ul>
                     <li><a href="#SOAD">System Of A Down</a></li>
                     <li><a href="#21P">Twenty One Pilots</a></li>
                     <li><a href="#TH">Tally Hall</a></li>
@@ -22,6 +27,10 @@
                     <li><a href="#W!">Wham!</a></li>
                     <li><a href="#LP">Lady Pank</a></li>
                 </ul>
+        <nav class="mobile">
+<!-- Use any element to open/show the overlay navigation menu -->
+<span onclick="openNav()">Menu</span> 
+        </nav>
                 <h1 id="SOAD">System Of A Down</h1>
                 <p>System Of A Down to ormiańsko-amerykański zespół, który łączy metal, rock alternatywny i bardzo charakterystyczny, czasem wręcz teatralny wokal Serja Tankiana. Ich muzyka wyróżnia się nagłymi zmianami tempa, mocnym brzmieniem i tekstami poruszającymi tematy polityczne oraz społeczne. Grupa zdobyła ogromną popularność dzięki takim utworom jak „Chop Suey!”, „Toxicity” czy „B.Y.O.B.”. Mimo przerw w działalności, zespół wciąż jest kultowy i ma fanów na całym świecie.</p>
                 <h1 id="21P">Twenty One Pilots</h1>
@@ -49,6 +58,30 @@
         </div>
         <div class="box1"></div>        
         <footer>Emmanuel Mbappe 2TA2</footer>
+        <div id="myNav" class="overlay">
+
+  <!-- Button to close the overlay navigation -->
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+  <!-- Overlay content -->
+  <div class="overlay-content">
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Clients</a>
+    <a href="#">Contact</a>
+  </div>
+
+</div>
+        <script>
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+</script>
+     
     </body>
 </html>
 
