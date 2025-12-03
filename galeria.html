@@ -1,16 +1,50 @@
 <!DOCTYPE html>
 <html lang="pl">
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
         <meta charset="UTF-8">
-        <title>Galeria 7 Najlepszych zespołów (moim zdaniem)</title>
+        <title>7 Najlepszych zespołów (moim zdaniem)</title>
         <link rel="stylesheet" href="css.css">
     </head>
     <body>
+                <div class="box2"></div>     
         <header><div id="an1">7 Najlepszych zespołów (moim zdaniem)</div></header>
-        <nav><a href="index.html">Strona Główna</a> <a href="galeria.html">Galeria</a> <a href="formularz.html">Formularz</a> </nav><br>
-        <main></main>
+
+        <nav class="pc"><a href="index.html">Strona Główna</a> <a href="galeria.html">Galeria</a> <a href="formularz.html">Formularz</a> </nav>
+                <nav class="mobile"><br>
+<!-- Use any element to open/show the overlay navigation menu -->
+<span onclick="openNav()">Menu</span> 
+        </nav>
+        <div class="tekst">
+        <main>
+            
+        </main>
+        </div>
         <div class="box1"></div>        
         <footer>Emmanuel Mbappe 2TA2</footer>
+        <div id="myNav" class="overlay">
+
+  <!-- Button to close the overlay navigation -->
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+  <!-- Overlay content -->
+  <div class="overlay-content">
+         <a href="index.html">Strona Główna</a> <a href="galeria.html">Galeria</a> <a href="formularz.html">Formularz</a>
+
+  </div>
+
+</div>
+        <script>
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+</script>
+     
     </body>
 </html>
 
