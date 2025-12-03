@@ -4,7 +4,7 @@
 
 }
 html{
-        scroll-padding-top: 13vh;
+        scroll-padding-top: 17vh;
 }
 header ,footer{
     background-color: rgb(86, 27, 140);
@@ -44,8 +44,19 @@ nav {
     justify-content: center;
     background-color: rgb(21, 21, 118);
     z-index: 2;
+    left: 0px;
 }
-
+span{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    margin: 15px;
+    background-color: rgb(123, 36, 155);
+    border: solid black 1px;
+    border-radius: 20px;
+    transform: scale(1);
+    transition: transform 0.3s ease;
+}
 nav a {
     text-decoration: none;
     color: black;
@@ -82,6 +93,7 @@ main a{
     width: 100vw;
     height: 7vh;
     z-index: 0;
+    left: 0;
 }
 .box2{
     position: fixed;
@@ -103,7 +115,11 @@ main a{
         }
         .mobile{
             display: block;
+            height: 8vh;
         }
+        html{
+        scroll-padding-top: 21vh;
+        }   
     }
     @media screen and (max-width:600px){
         .pc{
