@@ -106,6 +106,11 @@ textarea{
     height: 11vh;
     z-index: 0;
 }
+/*form*/
+.form1{
+    float: left;
+    width: 47.5vw;
+}
 #an1{
     animation: an1 2.5s infinite alternate;
 }
@@ -123,10 +128,17 @@ textarea{
         html{
         scroll-padding-top: 21vh;
         }   
+        .form1{
+            float: none;
+            width: auto;
+        }
     }
     @media screen and (max-width:600px){
 
         main ul{
+            display: none;
+        }
+        .form3{
             display: none;
         }
     }
