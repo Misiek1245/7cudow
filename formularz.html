@@ -18,21 +18,29 @@
         </nav>
             <main>
               <h1>Formularz</h1><br>
-              <form>
+              <div class="form1&2">
+                <form class="form1">
+                  <fieldset >
+                                  <legend><h1>Zespoły jakie znasz:</h1></legend>
+                  <input type="checkbox" name="fav_band" value="SOAD"><label for="SOAD">System Of A Down</label><br>
+                  <input type="checkbox" name="fav_band" value="21P"><label for="21P">Twenty One Pilots</label><br>
+                  <input type="checkbox" name="fav_band" value="TH"><label for="TH">Tally Hall</label><br>
+                  <input type="checkbox" name="fav_band" value="Q"><label for="Q">Queen</label><br>
+                  <input type="checkbox" name="fav_band" value="DF"><label for="DP">Daft Punk</label><br>
+                  <input type="checkbox" name="fav_band" value="W!"><label for="W!">Wham!</label><br>
+                  <input type="checkbox" name="fav_band" value="LP"><label for="LP">Lady Pank</label><br>
+                  </fieldset>
+                </form class="form2">
+                              <form>
+                  <fieldset style="float: left;">
+                    <legend><h1>Dlaczego to twój ulubiony zespuł</h1></legend>
+                  <textarea name="text1" rows="20"></textarea>
+                  </fieldset>
+                </form>
+              </div>
+              <form class="form3">
                 <fieldset>
-                                <legend><h1>Zespoły jakie znasz:</h1></legend>
-                <input type="checkbox" name="fav_band" value="SOAD"><label for="SOAD">System Of A Down</label><br>
-                <input type="checkbox" name="fav_band" value="21P"><label for="21P">Twenty One Pilots</label><br>
-                <input type="checkbox" name="fav_band" value="TH"><label for="TH">Tally Hall</label><br>
-                <input type="checkbox" name="fav_band" value="Q"><label for="Q">Queen</label><br>
-                <input type="checkbox" name="fav_band" value="DF"><label for="DP">Daft Punk</label><br>
-                <input type="checkbox" name="fav_band" value="W!"><label for="W!">Wham!</label><br>
-                <input type="checkbox" name="fav_band" value="LP"><label for="LP">Lady Pank</label><br>
-                </fieldset>
-              </form>
-              <form>
-                <fieldset>
-                                <legend><h2>Ulubiony zespuł</h2></legend>
+                                <legend><h1>Ulubiony zespuł</h1></legend>
                 <input type="radio" name="fav_band" value="SOAD"><label for="SOAD">System Of A Down</label><br>
                 <input type="radio" name="fav_band" value="21P"><label for="21P">Twenty One Pilots</label><br>
                 <input type="radio" name="fav_band" value="TH"><label for="TH">Tally Hall</label><br>
@@ -40,13 +48,6 @@
                 <input type="radio" name="fav_band" value="DF"><label for="DP">Daft Punk</label><br>
                 <input type="radio" name="fav_band" value="W!"><label for="W!">Wham!</label><br>
                 <input type="radio" name="fav_band" value="LP"><label for="LP">Lady Pank</label><br>
-                </fieldset>
-              </form>
-              <form>
-                <fieldset>
-                  <legend><h2>Daczego to twój ulubiony zespuł</h2></legend>
-                <textarea name="text1" rows="20"></textarea>
-
                 </fieldset>
               </form>
             </main>
