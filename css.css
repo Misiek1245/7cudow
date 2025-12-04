@@ -83,6 +83,9 @@ main a{
     margin: 10px;
     color: rgb(51, 179, 161);
 }
+textarea{
+    width: 90vw;
+}
 .mobile{
     display: none;
 }
