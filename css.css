@@ -120,18 +120,18 @@ fieldset{
     height: 11vh;
     z-index: 0;
 }
-/*form*/
 .form1{
+    margin-left: 20%;
     float: left;
-    width: 15vw;
-    margin-left: 32.5vw;
+    width: 30%;
 }
 .form2{
-    width: 15vw;
-    float: left;
-    margin-right: 30vw;
+    width: 30%;
+    margin-right: 20%;
 }
-
+.form3{
+    text-align: center;
+}
 #an1{
     animation: an1 2.5s infinite alternate;
 }
@@ -139,6 +139,11 @@ fieldset{
 /* @ */
     /* @media  */
     @media screen and (max-width:1200px){
+        .form1 ,.form2{
+            margin: 0;
+            width: 100%;
+            clear: both;
+        }
         .mobile{
             display: block;
             height: 8vh;
