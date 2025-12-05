@@ -6,6 +6,17 @@
 html{
         scroll-padding-top: 17vh;
 }
+a{
+        text-decoration: none;
+    color: black;
+    padding: 10px;
+    margin: 15px;
+    background-color: rgb(123, 36, 155);
+    border: solid black 1px;
+    border-radius: 20px;
+    transform: scale(1);
+    transition: transform 0.3s ease;
+}
 header ,footer{
     background-color: rgb(86, 27, 140);
     display: flex;
@@ -120,10 +131,6 @@ fieldset{
     float: left;
     margin-right: 30vw;
 }
-.form3{
-    
-}
-
 
 #an1{
     animation: an1 2.5s infinite alternate;
@@ -132,9 +139,6 @@ fieldset{
 /* @ */
     /* @media  */
     @media screen and (max-width:1200px){
-        .pc{
-            display: none;
-        }
         .mobile{
             display: block;
             height: 8vh;
@@ -142,10 +146,15 @@ fieldset{
         html{
         scroll-padding-top: 21vh;
         }   
-        .form1{
-            float: none;
-            width: auto;
+        .pc_nav a{
+            display: block;
+            width: 100%;
+            margin:10px 0;
         }
+        .main_nav_pc{
+            display: none;
+        }
+
     }
     @media screen and (max-width:600px){
 
@@ -153,6 +162,9 @@ fieldset{
             display: none;
         }
         .form3{
+            display: none;
+        }
+                 .pc_nav{
             display: none;
         }
     }
@@ -169,7 +181,7 @@ fieldset{
             transform: scale(1.1) rotate(-2deg);
         }
     }
-/* not my */
+/* not mine */
  /* The Overlay (background) */
 .overlay {
   /* Height & width depends on how you want to reveal the overlay (see JS below) */   
@@ -202,6 +214,8 @@ fieldset{
   color: #818181;
   display: block; /* Display block instead of inline */
   transition: 0.3s; /* Transition effects on hover (color) */
+  background-color: rgba(1, 1, 1, 0);
+  border: none;
 }
 
 /* When you mouse over the navigation links, change their color */
