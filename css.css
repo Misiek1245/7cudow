@@ -129,11 +129,21 @@ fieldset{
 .form1{
     margin-left: 20%;
     float: left;
-    width: 30%;
 }
 .form2{
-    width: 30%;
     margin-right: 20%;
+}
+.form1 , .form2{
+    width: 30%;
+    height: 40vh;
+    
+}
+.form1 input, .form2 input{
+    margin: 1%;
+
+}
+.form1 label, .form2 label{
+    font-size: 150%;
 }
 .form3{
     text-align: center;
@@ -149,6 +159,7 @@ fieldset{
             margin: 0;
             width: 100%;
             clear: both;
+            height: auto;
         }
         .mobile{
             display: block;
