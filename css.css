@@ -124,7 +124,7 @@ fieldset{
     background-color: rgb(21, 21, 118);
     width: 100vw;
     height: 11vh;
-    z-index: 0;
+    z-index: 1;
 }
 .form1{
     margin-left: 20%;
