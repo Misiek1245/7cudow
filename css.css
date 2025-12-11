@@ -152,7 +152,6 @@ table{
 #an1{
     animation: an1 2.5s infinite alternate;
 }
-
 /* @ */
     /* @media  */
     @media screen and (max-width:1200px){
@@ -188,6 +187,9 @@ table{
             display: none;
         }
                  .pc_nav{
+            display: none;
+        }
+        .songs{
             display: none;
         }
     }
