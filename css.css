@@ -100,6 +100,9 @@ textarea{
 fieldset{
     text-align: left;
 }
+table{
+    border: 1px solid black;
+}
 .bestalbum{
     display: flex;
     flex-wrap: wrap;
