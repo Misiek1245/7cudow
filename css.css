@@ -37,9 +37,6 @@ header{
 body{
     background-color: rgb(21, 21, 118);
 }
-li{
-    list-style-type: none;
-}
 footer{
     height: 5vh;
     margin: auto;
@@ -101,7 +98,6 @@ fieldset{
     text-align: left;
 }
 table{
-
     border: 3px solid black;
     margin: auto;
 }
