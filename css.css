@@ -219,6 +219,11 @@ textarea{
         .text{
             display: none;
         }
+        table{
+            height: auto;
+            width: auto;
+            padding: 10px;
+        }
     }
     /* @keyframe */
         @keyframes an1 {
