@@ -93,7 +93,7 @@ div a{
 
 }
 h3 a{
-    background-color: none;
+    background-color: rgba(0,0,0, 0);
     color: black;
 }
 h3 a:hover{
