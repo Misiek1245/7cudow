@@ -6,17 +6,6 @@
 html{
         scroll-padding-top: 17vh;
 }
-a{
-        text-decoration: none;
-    color: black;
-    padding: 9px;
-    margin: 9px;
-    background-color: rgb(123, 36, 155);
-    border: solid black 1px;
-    border-radius: 20px;
-    transform: scale(1);
-    transition: transform 0.3s ease;
-}
 header ,footer{
     background-color: rgb(86, 27, 140);
     display: flex;
@@ -66,15 +55,16 @@ span{
     transition: transform 0.3s ease;
 }
 nav a {
-    text-decoration: none;
+        text-decoration: none;
     color: black;
-    padding: 10px;
-    margin: 15px;
+    padding: 9px;
+    margin: 9px;
     background-color: rgb(123, 36, 155);
     border: solid black 1px;
     border-radius: 20px;
     transform: scale(1);
     transition: transform 0.3s ease;
+
 }
 nav a:hover{
     transform: scale(1.1);
@@ -89,9 +79,25 @@ main{
     width: 80vw;
     margin: 0 10vw;
 }
-main a{
+div a{
     margin: 9px;
     color: rgb(163, 179, 94);
+            text-decoration: none;
+    padding: 9px;
+    margin: 9px;
+    background-color: rgb(123, 36, 155);
+    border: solid black 1px;
+    border-radius: 20px;
+    transform: scale(1);
+    transition: transform 0.3s ease;
+
+}
+h3 a{
+    background-color: none;
+    color: black;
+}
+h3 a:hover{
+        color: rgb(163, 179, 94);
 }
 textarea{
     width: 90vw;
@@ -105,6 +111,13 @@ table{
     width: 60vw;
     height: 50vh;
     background-color: rgb(144, 29, 144);
+}
+iframe{
+    width:600px; 
+    height:450px; 
+}
+textarea{
+    width: 100%;
 }
 .bestalbum{
     display: flex;
@@ -182,7 +195,12 @@ table{
         .main_nav_pc{
             display: none;
         }
-
+        iframe{
+            width: 60vw;
+        }
+        div .dot{
+            display: none;
+        }
     }
     @media screen and (max-width:600px){
 
@@ -196,6 +214,9 @@ table{
             display: none;
         }
         .songs{
+            display: none;
+        }
+        .text{
             display: none;
         }
     }
