@@ -213,7 +213,7 @@ textarea{
                  .pc_nav{
             display: none;
         }
-        .songs{
+        .songs, audio{
             display: none;
         }
         .text{
