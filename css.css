@@ -224,6 +224,14 @@ textarea{
             width: auto;
             padding: 10px;
         }
+        main{
+            width: auto;
+            margin: 0;
+        }
+                iframe{
+            width: 80vw;
+        }
+
     }
     /* @keyframe */
         @keyframes an1 {
