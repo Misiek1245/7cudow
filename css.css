@@ -219,6 +219,9 @@ textarea{
         .text{
             display: none;
         }
+        .text1{
+            display: none;
+        }
         table{
             height: auto;
             width: auto;
