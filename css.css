@@ -201,6 +201,10 @@ textarea{
         div .dot{
             display: none;
         }
+        main{
+            width: 90vw;
+            margin: 0 5vw;
+        }
     }
     @media screen and (max-width:600px){
 
